@@ -1,10 +1,10 @@
-#Bracketed - Sports and Esports Pick'ems
+# Bracketed - Sports and Esports Pick'ems
 
-#Project Abstract
+# Project Abstract
 
-#Project Description
+# Project Description
 
-#User Stories and Design Diagrams
+# User Stories and Design Diagrams
 ## User Stories
 - As a sports fan, I want to make weekly pick'em predictions across multiple leagues so that I can compete with my friends and track my performance.
 - As an Esports follower, I want to view leaderboards for different competitions so that I can see how my predictions compare to others in the community.
