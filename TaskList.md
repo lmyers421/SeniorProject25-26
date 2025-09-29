@@ -1,6 +1,6 @@
-#Task List
+# Task List
 
-##Sam’s Tasks:  
+## Sam’s Tasks:  
 
 Interview people to gain insight into what a user would want out of the game/UI. 
 
