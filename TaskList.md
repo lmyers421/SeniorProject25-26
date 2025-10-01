@@ -19,3 +19,27 @@ Determine what information about sports leagues (Teams, Games, Schedules etc) sh
 Create a straightforward development environment where the front and backend can either run locally or online, and real vs test data can be used. 
 
 Analyze benefits and drawbacks of different front and backend frameworks to determine what will work best for our application. 
+
+## Michael’s Tasks: 
+
+Discover and decide on a database option for holding data to be used in internal data calculations. 
+
+Develop data tables in a database to hold data imported from an API. 
+
+Research statistics that would be important to calculate to show player/team skill. 
+
+Learn how to connect a database to an API that has live updated information from the games being played. 
+
+Document all progress with respect to the database and its connection to the API and issues that arise and need to be solved. 
+
+## William’s Tasks: 
+
+Design and implement API endpoints that allow the frontend to retrieve and update user predictions, leaderboards, and match results. 
+
+Integrate external sports and Esports APIs into the backend system to collect game data and make it accessible to the application. 
+
+Develop logic for scoring and leaderboard updates to ensure user predictions are processed correctly and results are reflected accurately.  
+
+Implement backend authentication to handle user login and registration.  
+
+Test backend to frontend communication by verifying that data transfers smoothly between the UI and database. 
