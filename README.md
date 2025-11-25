@@ -275,6 +275,7 @@ For connecting to the API, we found good resources to learn at: https://nodejs.o
 
 Meeting 1, September 17:
 - Created Design Diagrams for Assignment 4
+- Compiled interview data about what people would want out of our application
 - Divided research topics amongst ourselves to talk about in the following meeting
 
 Meeting 2, September 24:
@@ -288,6 +289,7 @@ Meeting 4, October 8:
 - Brainstormed ideas that may cause snags within the project during its development
   
 Meeting 5, October 15:
+- Decided on using Node.js for the backend with PostGreSQL as the database
 - Quick meeting to check in on if anyone was having issues with the project
 
 Meeting 6, October 22:
@@ -295,16 +297,18 @@ Meeting 6, October 22:
 - Divided the sections into parts to record amongst ourselves.
 
 Meeting 7, October 29:
+- Officially created the github group
 - Set up base application to start 
 
 Meeting 8, November 5:
 - Caught everyone up to speed to be able to run our application and get a printout on screen.
+- Connected PostGres database to our Node.js backend
 
 Meeting 9, November 12:
 - Meeting was cancelled due to scheduling conflicts
 
 Meeting 10, November 19:
 - Talked about connecting an API to our system via Node.js instead of from the database itself
-- 
+- Created a way to run the client and server at the same time for easier testing
 
 
