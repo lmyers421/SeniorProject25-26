@@ -75,12 +75,15 @@ Bracketed is a web-based platform where users can join or create "pick’em" con
 ### Design Diagrams
 #### Level 0 
 [Design Diagram Level 0](DesignDiagrams/DD01.png)
+- The most basic description of our project's design. Instead of focusing on technical systems, this diagram illustrates the general flow that will be followed when using the application. Users will be authenticated, predicitons will be made, and scores and results will be calculated when the games finish.
 
 #### Level 1 
 [Design Diagram Level 1](DesignDiagrams/DD02.png)
+- More detail is added in this diagram. Interactions between the user, UI, and backend of the application are depicted. A similar flow from the first diagram is shown, but now each step is associated with a system of the application.
 
 #### Level 2
 [Design Diagram Level 2](DesignDiagrams/DD03.png)
+- The most detailed diagram- depicting the UI, API, and Data Control layer. Each input by the user will have a reaction that goes down each layer, all the way to the database, and evetually lead to an output returned back to the user.
 
 ## Project Tasks and Timeline
 ### Task List
