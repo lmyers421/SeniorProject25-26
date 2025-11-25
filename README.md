@@ -110,6 +110,11 @@ In its current state, there will be little to no ethical constraints for the pro
 ## PPT Slideshow
 
 ## Self-Assessment Essays
+[Luke Meyers](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Myers.pdf)
+
+[Sam Winkelmann](Assignments/Assignment3_CapstoneAssessment/CapstoneAssessment_Winkelmann.pdf)
+
+[William Braun](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Braun.pdf)
 
 ## Professional Biographies
 
