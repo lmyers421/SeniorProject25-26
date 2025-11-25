@@ -266,5 +266,44 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 
 ## Budget
 There have not been any expenses to date for this project.
+The football API at: https://www.api-football.com/ may need a subscription which would cost $19.00 per month should we exceed 100 API requests per day.
 
 ## Appendix
+The API we intend to get our data from can be found at: https://www.api-football.com/
+For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
+
+Meeting 1, September 17:
+- Created Design Diagrams for Assignment 4
+- Divided research topics amongst ourselves to talk about in the following meeting
+
+Meeting 2, September 24:
+- Wrote out task lists to roughly be even between all 4 members
+- Decided who would deal with what aspects of the project
+
+Meeting 3, October 1:
+- Created timeline of tasks and when they are do through out both semesters
+
+Meeting 4, October 8:
+- Brainstormed ideas that may cause snags within the project during its development
+  
+Meeting 5, October 15:
+- Quick meeting to check in on if anyone was having issues with the project
+
+Meeting 6, October 22:
+- Structured our powerpoint presentation
+- Divided the sections into parts to record amongst ourselves.
+
+Meeting 7, October 29:
+- Set up base application to start 
+
+Meeting 8, November 5:
+- Caught everyone up to speed to be able to run our application and get a printout on screen.
+
+Meeting 9, November 12:
+- Meeting was cancelled due to scheduling conflicts
+
+Meeting 10, November 19:
+- Talked about connecting an API to our system via Node.js instead of from the database itself
+- 
+
+
