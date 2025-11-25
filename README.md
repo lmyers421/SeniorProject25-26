@@ -1,9 +1,9 @@
 # Bracketed - Sports and Esports Pick'ems
 ## Team Members
-Luke Myers - myers2le@mail.uc.edu
-Michael Rhode - rhodemr@mail.uc.edu
-Sam Winkelmann - winkelse@mail.uc.edu
-William Braun - braunwb@mail.uc.edu
+Luke Myers - myers2le@mail.uc.edu  
+Michael Rhode - rhodemr@mail.uc.edu  
+Sam Winkelmann - winkelse@mail.uc.edu  
+William Braun - braunwb@mail.uc.edu  
 Giovani Abuaitah (Advisor) - abuaitgi@ucmail.uc.edu
 
 ## Project Abstract
@@ -22,19 +22,38 @@ Bracketed is a web-based platform where users can join or create "pick’em" con
 
 ### Design Diagrams
 #### Level 0 
+[Design Diagram Level 0](DesignDiagrams/DD01.png)
 
 #### Level 1 
+[Design Diagram Level 1](DesignDiagrams/DD02.png)
 
-#### Level 2 
+#### Level 2
+[Design Diagram Level 2](DesignDiagrams/DD03.png)
 
 ## Project Tasks and Timeline
 ### Task List
+[Task List](Assignments/TaskList.md)
 
 ### Timeline 
+[Timeline](Assignments/Timeline.xlsx)
 
 ### Effort Matrix
+[Effort Matrix](Assignments/EffortMatrix.xlsx)
 
 ## ABET Concerns Essay
+Our project will interact with economic, legal, security, and ethical concerns. 
+
+Economic:  
+While some API’s may charge a fee for a subscription to connect to their databases, some are free such as API-Football which is a good contender for what we will use. It may cost some money from us in the form of power usage when hosting the server/database or performing tests on a locally hosted webpage, but this cost is negligible in the longterm. Our final product will not be connected to UC or any other external help besides the API that we have decided to use for this project, so our costs should stay low.  
+
+Security concerns:  
+Because our project will have a login system, there exists the possibility that user information such as passwords could be retrieved from the database should someone try to access the system.  We will also include some basic personal information such as users’ names so that other users will be able to identify each other more easily if they are added as friends.  We would recommend that users keep their passwords unique so that there is no risk of any larger impact should they get leaked.  Security is always a concern, no matter the size or scope of the project, since user information should always be kept private. 
+
+Legal:  
+A major legal constraint for Bracketed involves the use of intellectual property from professional sports and esports leagues such as the NFL, NBA, League of Legends, and Overwatch. These organizations control the use of their logos, team names, and other branded materials. Therefore, our project will have to use only publicly available data such as scores, schedules, and statistics obtained from approved or open-source APIs. If Bracketed was to ever be expanded beyond a senior project, we would need to pursue official licensing or data agreements to ensure full legal compliance.  
+
+Ethical:  
+In its current state, there will be little to no ethical constraints for the project. However, if the project expands, there will be some ethical concerns that will need to be addressed. The website will have the ability for users to add friends and invite them to challenges, which will start to create a community. It will be an ethical obligation to monitor this community to prevent harassment, hateful activity, and bullying. Many sports games often involve gambling, and if any monetary transactions or rewards were ever included into the site, it would be important that effects of sports betting and gambling addiction would not be abused or capitalized on just for the benefit of the website. 
 
 ## PPT Slideshow
 
