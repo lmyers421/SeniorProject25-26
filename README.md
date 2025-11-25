@@ -266,6 +266,7 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 
 ## Budget
 There have not been any expenses to date for this project.
+
 The football API at: https://www.api-football.com/ may need a subscription which would cost $19.00 per month should we exceed 100 API requests per day.
 
 ## Appendix
