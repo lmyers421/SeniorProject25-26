@@ -272,6 +272,8 @@ There have not been any expenses to date for this project.
 
 The football API at: https://www.api-football.com/ may need a subscription which would cost $19.00 per month should we exceed 100 API requests per day.
 
+There may be additional costs if we want to host our client and server in the costs, but these have not been calculated yet
+
 ## Appendix
 The API we intend to get our data from can be found at: https://www.api-football.com/
 For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
