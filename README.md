@@ -108,6 +108,7 @@ Ethical:
 In its current state, there will be little to no ethical constraints for the project. However, if the project expands, there will be some ethical concerns that will need to be addressed. The website will have the ability for users to add friends and invite them to challenges, which will start to create a community. It will be an ethical obligation to monitor this community to prevent harassment, hateful activity, and bullying. Many sports games often involve gambling, and if any monetary transactions or rewards were ever included into the site, it would be important that effects of sports betting and gambling addiction would not be abused or capitalized on just for the benefit of the website. 
 
 ## PPT Slideshow
+[Slideshow](Assignments/Fall_Design_Presentation.pdf)
 
 ## Self-Assessment Essays
 [Luke Meyers](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Myers.pdf)
