@@ -275,8 +275,10 @@ The football API at: https://www.api-football.com/ may need a subscription which
 There may be additional costs if we want to host our client and server in the costs, but these have not been calculated yet
 
 ## Appendix
-The API we intend to get our data from can be found at: https://www.api-football.com/
-For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
+Time Card
+- Weekly Team Meetings (Advisor Meetings Included): ~11 hours
+- 10 Assignments: ~15 hours
+- Project Setup / Work ~20 hours
 
 Meeting 1, September 17:
 - Created Design Diagrams for Assignment 4
@@ -315,5 +317,9 @@ Meeting 9, November 12:
 Meeting 10, November 19:
 - Talked about connecting an API to our system via Node.js instead of from the database itself
 - Created a way to run the client and server at the same time for easier testing
+
+Resources / References
+- The API we intend to get our data from can be found at: https://www.api-football.com/
+- For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
 
 
