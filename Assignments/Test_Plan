@@ -157,7 +157,10 @@ DA1.7  Blackbox
 DA1.8  Functional  
 DA1.9  Integration  
 
-|Test Case ID|Normal/Ab.|Black/Whitebox|Funct/Perform|Unit/Inter.|
+## Test Case Matrix
+
+| Test Case ID | Normal/Ab. | Black/Whitebox | Funct/Perform | Unit/Integr |
+| ------------ | ---------- | -------------- | ------------- | ----------- |
 |LD1         |Normal    |Blackbox      |Functional   |Integration|
 |LD2         |Abnormal  |Blackbox      |Functional   |Integration|
 |LD3         |Abnormal  |Blackbox      |Functional   |Integration|
