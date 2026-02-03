@@ -88,3 +88,36 @@ NM1.6 Normal
 NM1.7 Blackbox 
 NM1.8 Functional 
 NM1.9 Integration 
+
+CI1.1 **Challenge Invitation Test 1**
+CI1.2 Purpose: This test will ensure that users can send out invitations to join their challenge after it is created
+CI1.3 Description: For this test, a challenge will be created and filled with multiple games. Then, an invitation will be sent up to multiple test users. Those users will have notifications on their home page to join, as well as email notifications.
+CI1.4 Inputs: Test challenge, list of test users
+CI1.5 Outputs: Challenge invitation associated with test users, and invitation email sent
+CI1.6 Normal
+CI1.7 Blackbox
+CI1.8 Functional
+CI1.9 Integration
+CI1.10 Results: The correct users should all have an invitation notification on their account, as well as an invitation email sent to the correct address.
+
+CI2.1 **Challenge Invitation Test 2**
+CI2.2 Purose: This test will ensure that users who have received an invitation can join the challenge correctly
+CI2.3 Description: For this test, a user will receive an invitation to joing a challenge. They will then click on the invitation notification on the home page, or the join invitation in their email.
+CI2.4 Inputs: Test challenge invitation
+CI2.5 Outputs: User will join the correct challenge and be able to see all of the games.
+CI2.6 Normal
+CI2.7 Blackbox
+CI2.8 Functional
+CI2.9 Integration
+CI2.10 Results: The user will be able to selection on the invitation and join the correct challenge. They will have the challenge now associated with their use account, and they can make selections in the challenge.
+
+CI3.1 **Challenge Invitation Test 3**
+CI3.2 Purpose: This test will ensure that users can join a challenge by entering a code and a password without an invitation
+CI3.3 Description: For this test, a user will use a code and a password to join a challenge. They will navigate to the join page, enter the username and password, then join the correct challenge
+CI3.4 Inputs: challenge code, challenge password, associated test challenge
+CI3.5 Outputs: User will join the correct challenge and be able to see all of the games.
+CI3.6 Normal
+CI3.7 Blackbox
+CI3.8 Functional
+CI3.9 Intergration
+CI3.10 Results: The user will be able to go to the join challegne page, input the challenge code and password, then join the challenge. The challenge will now be associated with thier user account, and they can make selections in the challenge.
