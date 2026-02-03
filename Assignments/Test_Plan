@@ -58,3 +58,33 @@ PS1.7 Blackbox
 PS1.8 Functional  
 PS1.9 Integration  
 PS1.10 Results: Prediction was successfully stored and associated with the correct user and match.  
+
+AB1.1 **Adding/Creating Bracket Test**
+AB1.2 Purpose: Adding/creating a bracket is a key component of our app, so we want to ensure that doing so is correct all of the time.
+AB1.3 Description: The user will go to the brackets page, and add a bracket, then ensure that the user can add other users/friends to the bracket, make picks, and everything works as expected within the app and the backend.
+AB1.4 Inputs: add a bracket, make picks
+AB1.5 Expected outputs/results: bracket gets added to user’s account, backend, etc.  User is able to make picks and they will save to their profile.
+AB1.6 Normal 
+AB1.7 Blackbox 
+AB1.8 Functional 
+AB 1.9 Unit
+
+SF1.1 **Settings Functionality Test**
+SF1.2 Purpose: To ensure that all options in the settings menu can be enabled/changed and they work as intended.
+SF1.3 For each option in the settings menu, the user will change it and then test the application, with special notes for the specific setting that has been changed to ensure that it does what it is supposed to do.
+SF1.4 Inputs: The only inputs are the settings on the settings page.
+SF1.5 Expected outputs/results: The app should continue to function normally despite the settings changed, with differences depending on the setting that is changed.
+SF1.6 Normal 
+SF1.7 Whitebox
+SF1.8 Functional 
+SF1.9 Integration
+
+NM1.1 **Navigation/Menu Testing**
+NM1.2 Purpose: user can freely navigate the app using all the menu features
+NM1.3 Description; user will ensure that all menu/navigation features work from any place on the app, so they don’t have to go through sub-menus or multiple screens to get where they want to go.
+NM1.4 Inputs used for test: Purely mouse controls, clicking on pop-out menu and navigating to each page by clicking.
+NM1.5 Expected outputs/results: User will be able to get to any page from any other page with only a few clicks, and no sub-menus
+NM1.6 Normal 
+NM1.7 Blackbox 
+NM1.8 Functional 
+NM1.9 Integration 
