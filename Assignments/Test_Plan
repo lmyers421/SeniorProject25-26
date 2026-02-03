@@ -121,3 +121,47 @@ CI3.7 Blackbox
 CI3.8 Functional
 CI3.9 Intergration
 CI3.10 Results: The user will be able to go to the join challegne page, input the challenge code and password, then join the challenge. The challenge will now be associated with thier user account, and they can make selections in the challenge.
+
+SI1.1 ** System Integration Test **
+SI1.2 The purpose of this test is to go from the webpage, to signing in, to making predictions, signing out, then when signing back in, the user’s previous picks populate automatically.
+SI1.3 The test is for checking the entire user experience by having them sign in and make predictions. Then when they come back to the website, the user’s previous choices will populate the picks.
+SI1.4 Inputs are a new username and password as well as picking from the choices of game of who the user thinks will win each game.
+SI1.5 The expected result is for all the user’s previous picks to accurately be recorded and shown back to the user the next time they load the website.
+SI1.6 Normal Testing
+SI1.7 Blackbox Testing
+SI1.8 Functional Testing
+SI1.9 Integration Testing
+SI1.10 Results: User’s should expect to have their choices saved without needing to stay on the website to keep it open.
+
+SI2.1 ** System Integration Test 2 **
+SI2.2 The purpose of this test is to have a user sign in, challenge someone, and have one of the users within the challenge get a notification of their victory.
+SI2.3 The test is for ensuring that the user has a seamless experience when challenging a friend to a pick-em challenge.
+SI2.4 The inputs include 2 users signing in, one challenging the other with the opponent accepting the challenge, picking teams to win, and a winner being declared.
+SI2.5 The expected result is for no errors to show while the challenge is going on and when the winner is declared.
+SI2.6 Normal Testing
+SI2.7 Blackbox Testing
+SI2.8 Functional Testing
+SI2.9 Integration Testing
+SI2.10 Results: The winner of the challenge is crowned the winner and then the challenge closes.
+
+UA1.1 ** User Authorization Test **
+UA1.2 The purpose of this test is to keep user accounts from being accessed without the correct username and password.
+UA1.3 This test will take an example user: (user, password), and try to see if there is a way to access the account without perfect matching credentials.
+UA1.4 Inputs will be variations of the username and password such as: (User, password), (user, PASSWORD), (us er, password), (user2, password), etc.
+UA1.5 The expected result is for all of the false login information to give us an error message of having the wrong credentials and to try again.
+UA1.6 Normal Testing
+UA1.7 Blackbox Testing
+UA1.8 Functional Testing
+UA1.9 Unit Testing
+UA1.10 Results: Only the correct username and password combination will allow for a user to sign into an account.
+
+DA1.1 ** Database API Test **
+DA1.2  The purpose of this test is to check if the API data successfully populates the SQL table.
+DA1.3  In this test, we will run our API call and input each game, teams in the game, score per team, etc. into our SQL table.
+DA1.4  There are no inputs for this test, but there will be different API calls per each sport in our app.
+DA1.5  We expect for the current games to show up within the games table.
+DA1.6  Normal Testing
+DA1.7  Blackbox Testing
+DA1.8  Functional Testing
+DA1.9  Integration Testing
+DA1.10 Results: Our SQL table fills with new, correct data from our API calls.
