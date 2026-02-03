@@ -1,19 +1,21 @@
 # Test Plan and Results
 
 ## Overall Test Plan
+Our approach to testing focuses on two main approaches. First, we will test individual system components, such as API data retrieval, user authentication, prediction submission, and database integration, using controlled inputs. These tests will cover both normal and abnormal conditions, including invalid league identifiers and incorrect date ranges, to ensure the system handles errors gracefully.
+
+Second, we will test the full system as an integrated application by simulating real user workflows across multiple supported sports and esports leagues. This phase will validate end-to-end functionality, including logging in, creating challenges, submitting predictions, and viewing results, while ensuring consistent behavior across different leagues. Together, these testing phases help ensure Bracketed is reliable, scalable, and functions correctly under realistic usage scenarios.  
 
 ## Test Case Descriptions
 
 LD1.1 **League Data API Test 1**  
 LD1.2 This test will ensure that the backend can successfully retrieve game or match data for a supported league using an external API.  
 LD1.3 For this test, the backend will issue a request to the league data endpoint using a valid league identifier and date range. The returned data will be verified to ensure it matches the requested league and timeframe.  
-LD1.4 Inputs: League identifier (e.g., NBA, NFL, NHL, LoL, Overwatch), Start date, End date  
+LD1.4 Inputs: League identifier (e.g., NBA, NFL, MLB, MLS, LoL), Start date, End date  
 LD1.5 Outputs: Game or match data for the specified league is returned, No API or server errors occur  
 LD1.6 Normal  
 LD1.7 Blackbox  
 LD1.8 Functional  
 LD1.9 Integration  
-LD1.10 Results: Game or match data was successfully retrieved for the selected league and date range.  
 
 LD2.1 **League Data API Test 2**  
 LD2.2 This test will verify proper handling of invalid or unsupported league identifiers.  
@@ -24,7 +26,6 @@ LD2.6 Abnormal
 LD2.7 Blackbox  
 LD2.8 Functional  
 LD2.9 Integration  
-LD2.10 Results: The backend correctly rejected the unsupported league request.  
 
 LD3.1 **League Data API Test 3**  
 LD3.2 This test will verify that the backend correctly handles invalid date ranges for any supported league.  
@@ -35,18 +36,16 @@ LD3.6 Abnormal
 LD3.7 Blackbox  
 LD3.8 Functional  
 LD3.9 Integration  
-LD3.10 Results: The backend correctly handled the invalid date range.  
 
 LD4.1 **League Data API Test 4**    
 LD4.2 This test will ensure consistent response structure across different leagues.  
-LD4.3 For this test, requests will be made to multiple supported league endpoints and the response format will be compared to ensure consistency.  
+LD4.3 For this test, requests will be made to multiple supported league endpoints, and the response format will be compared to ensure consistency.  
 LD4.4 Inputs: Multiple valid league identifiers, Valid date ranges   
 LD4.5 Outputs: Responses follow a consistent schema regardless of league  
 LD4.6 Normal  
 LD4.7 Whitebox  
 LD4.8 Functional  
 LD4.9 Integration  
-LD4.10 Results: All league responses followed the standardized backend data format.  
 
 PS1.1 **Prediction Submission Test 1**    
 PS1.2 This test will ensure that users can submit predictions for games or matches across any supported league.  
@@ -56,112 +55,104 @@ PS1.5 Outputs: Prediction saved to the database, Confirmation returned to user
 PS1.6 Normal  
 PS1.7 Blackbox  
 PS1.8 Functional  
-PS1.9 Integration  
-PS1.10 Results: Prediction was successfully stored and associated with the correct user and match.  
+PS1.9 Integration   
 
-AB1.1 **Adding/Creating Bracket Test**
-AB1.2 Purpose: Adding/creating a bracket is a key component of our app, so we want to ensure that doing so is correct all of the time.
-AB1.3 Description: The user will go to the brackets page, and add a bracket, then ensure that the user can add other users/friends to the bracket, make picks, and everything works as expected within the app and the backend.
-AB1.4 Inputs: add a bracket, make picks
-AB1.5 Expected outputs/results: bracket gets added to user’s account, backend, etc.  User is able to make picks and they will save to their profile.
-AB1.6 Normal 
-AB1.7 Blackbox 
-AB1.8 Functional 
-AB 1.9 Unit
+AB1.1 **Adding/Creating Bracket Test**  
+AB1.2 Purpose: Adding/creating a bracket is a key component of our app, so we want to ensure that doing so is correct all of the time.  
+AB1.3 Description: The user will go to the brackets page, and add a bracket, then ensure that the user can add other users/friends to the bracket, make picks, and everything works as expected within the app and the backend.  
+AB1.4 Inputs: add a bracket, make picks  
+AB1.5 Expected outputs/results: bracket gets added to user’s account, backend, etc.  User is able to make picks, and picks made by the user are saved to their profile.  
+AB1.6 Normal   
+AB1.7 Blackbox   
+AB1.8 Functional  
+AB 1.9 Unit  
 
-SF1.1 **Settings Functionality Test**
-SF1.2 Purpose: To ensure that all options in the settings menu can be enabled/changed and they work as intended.
-SF1.3 For each option in the settings menu, the user will change it and then test the application, with special notes for the specific setting that has been changed to ensure that it does what it is supposed to do.
-SF1.4 Inputs: The only inputs are the settings on the settings page.
-SF1.5 Expected outputs/results: The app should continue to function normally despite the settings changed, with differences depending on the setting that is changed.
-SF1.6 Normal 
-SF1.7 Whitebox
-SF1.8 Functional 
-SF1.9 Integration
+SF1.1 **Settings Functionality Test**  
+SF1.2 Purpose: To ensure that all options in the settings menu can be enabled/changed and they work as intended.  
+SF1.3 For each option in the settings menu, the user will change it and then test the application, with special notes for the specific setting that has been changed to ensure that it does what it is supposed to do.  
+SF1.4 Inputs: The only inputs are the settings on the settings page.  
+SF1.5 Expected outputs/results: The app should continue to function normally despite the settings changed, with differences depending on the setting that is changed.  
+SF1.6 Normal   
+SF1.7 Whitebox  
+SF1.8 Functional   
+SF1.9 Integration  
 
-NM1.1 **Navigation/Menu Testing**
-NM1.2 Purpose: user can freely navigate the app using all the menu features
-NM1.3 Description; user will ensure that all menu/navigation features work from any place on the app, so they don’t have to go through sub-menus or multiple screens to get where they want to go.
-NM1.4 Inputs used for test: Purely mouse controls, clicking on pop-out menu and navigating to each page by clicking.
-NM1.5 Expected outputs/results: User will be able to get to any page from any other page with only a few clicks, and no sub-menus
-NM1.6 Normal 
-NM1.7 Blackbox 
-NM1.8 Functional 
-NM1.9 Integration 
+NM1.1 **Navigation/Menu Testing**  
+NM1.2 Purpose: user can freely navigate the app using all the menu features  
+NM1.3 Description; user will ensure that all menu/navigation features work from any place on the app, so they don’t have to go through sub-menus or multiple screens to get where they want to go.  
+NM1.4 Inputs used for test: Purely mouse controls, clicking on pop-out menu and navigating to each page by clicking.  
+NM1.5 Expected outputs/results: User will be able to get to any page from any other page with only a few clicks, and no sub-menus  
+NM1.6 Normal  
+NM1.7 Blackbox   
+NM1.8 Functional   
+NM1.9 Integration   
 
-CI1.1 **Challenge Invitation Test 1**
-CI1.2 Purpose: This test will ensure that users can send out invitations to join their challenge after it is created
-CI1.3 Description: For this test, a challenge will be created and filled with multiple games. Then, an invitation will be sent up to multiple test users. Those users will have notifications on their home page to join, as well as email notifications.
-CI1.4 Inputs: Test challenge, list of test users
-CI1.5 Outputs: Challenge invitation associated with test users, and invitation email sent
-CI1.6 Normal
-CI1.7 Blackbox
-CI1.8 Functional
-CI1.9 Integration
-CI1.10 Results: The correct users should all have an invitation notification on their account, as well as an invitation email sent to the correct address.
+CI1.1 **Challenge Invitation Test 1**  
+CI1.2 Purpose: This test will ensure that users can send out invitations to join their challenge after it is created  
+CI1.3 Description: For this test, a challenge will be created and filled with multiple games. Then, an invitation will be sent up to multiple test users. Those users will have notifications on their home page to join, as well as email notifications.  
+CI1.4 Inputs: Test challenge, list of test users  
+CI1.5 Outputs: Challenge invitation associated with test users, and invitation email sent  
+CI1.6 Normal  
+CI1.7 Blackbox  
+CI1.8 Functional  
+CI1.9 Integration    
 
-CI2.1 **Challenge Invitation Test 2**
-CI2.2 Purose: This test will ensure that users who have received an invitation can join the challenge correctly
-CI2.3 Description: For this test, a user will receive an invitation to joing a challenge. They will then click on the invitation notification on the home page, or the join invitation in their email.
-CI2.4 Inputs: Test challenge invitation
-CI2.5 Outputs: User will join the correct challenge and be able to see all of the games.
-CI2.6 Normal
-CI2.7 Blackbox
-CI2.8 Functional
-CI2.9 Integration
-CI2.10 Results: The user will be able to selection on the invitation and join the correct challenge. They will have the challenge now associated with their use account, and they can make selections in the challenge.
+CI2.1 **Challenge Invitation Test 2**  
+CI2.2 Purpose: This test will ensure that users who have received an invitation can join the challenge correctly  
+CI2.3 Description: For this test, a user will receive an invitation to join a challenge. They will then click on the invitation notification on the home page, or the join invitation in their email.  
+CI2.4 Inputs: Test challenge invitation  
+CI2.5 Outputs: User will join the correct challenge and be able to see all of the games.  
+CI2.6 Normal  
+CI2.7 Blackbox  
+CI2.8 Functional  
+CI2.9 Integration    
 
-CI3.1 **Challenge Invitation Test 3**
-CI3.2 Purpose: This test will ensure that users can join a challenge by entering a code and a password without an invitation
-CI3.3 Description: For this test, a user will use a code and a password to join a challenge. They will navigate to the join page, enter the username and password, then join the correct challenge
-CI3.4 Inputs: challenge code, challenge password, associated test challenge
-CI3.5 Outputs: User will join the correct challenge and be able to see all of the games.
-CI3.6 Normal
-CI3.7 Blackbox
-CI3.8 Functional
-CI3.9 Intergration
-CI3.10 Results: The user will be able to go to the join challegne page, input the challenge code and password, then join the challenge. The challenge will now be associated with thier user account, and they can make selections in the challenge.
+CI3.1 **Challenge Invitation Test 3**  
+CI3.2 Purpose: This test will ensure that users can join a challenge by entering a code and a password without an invitation  
+CI3.3 Description: For this test, a user will use a code and a password to join a challenge. They will navigate to the join page, enter the username and password, then join the correct challenge  
+CI3.4 Inputs: challenge code, challenge password, associated test challenge  
+CI3.5 Outputs: User will join the correct challenge and be able to see all of the games.  
+CI3.6 Normal  
+CI3.7 Blackbox  
+CI3.8 Functional  
+CI3.9 Integration    
 
-SI1.1 ** System Integration Test **
-SI1.2 The purpose of this test is to go from the webpage, to signing in, to making predictions, signing out, then when signing back in, the user’s previous picks populate automatically.
-SI1.3 The test is for checking the entire user experience by having them sign in and make predictions. Then when they come back to the website, the user’s previous choices will populate the picks.
-SI1.4 Inputs are a new username and password as well as picking from the choices of game of who the user thinks will win each game.
-SI1.5 The expected result is for all the user’s previous picks to accurately be recorded and shown back to the user the next time they load the website.
-SI1.6 Normal Testing
-SI1.7 Blackbox Testing
-SI1.8 Functional Testing
-SI1.9 Integration Testing
-SI1.10 Results: User’s should expect to have their choices saved without needing to stay on the website to keep it open.
+SI1.1 **System Integration Test**  
+SI1.2 The purpose of this test is to go from the webpage, to signing in, to making predictions, signing out, then when signing back in, the user’s previous picks populate automatically.  
+SI1.3 The test is for checking the entire user experience by having them sign in and make predictions. Then when they come back to the website, the user’s previous choices will populate the picks.  
+SI1.4 Inputs are a new username and password as well as picking from the choices of game of who the user thinks will win each game.  
+SI1.5 The expected result is for all the user’s previous picks to accurately be recorded and shown back to the user the next time they load the website.  
+SI1.6 Normal  
+SI1.7 Blackbox  
+SI1.8 Functional  
+SI1.9 Integration    
 
-SI2.1 ** System Integration Test 2 **
-SI2.2 The purpose of this test is to have a user sign in, challenge someone, and have one of the users within the challenge get a notification of their victory.
-SI2.3 The test is for ensuring that the user has a seamless experience when challenging a friend to a pick-em challenge.
-SI2.4 The inputs include 2 users signing in, one challenging the other with the opponent accepting the challenge, picking teams to win, and a winner being declared.
-SI2.5 The expected result is for no errors to show while the challenge is going on and when the winner is declared.
-SI2.6 Normal Testing
-SI2.7 Blackbox Testing
-SI2.8 Functional Testing
-SI2.9 Integration Testing
-SI2.10 Results: The winner of the challenge is crowned the winner and then the challenge closes.
+SI2.1 **System Integration Test 2**  
+SI2.2 The purpose of this test is to have a user sign in, challenge someone, and have one of the users within the challenge get a notification of their victory.  
+SI2.3 The test is for ensuring that the user has a seamless experience when challenging a friend to a pick-em challenge.  
+SI2.4 The inputs include 2 users signing in, one challenging the other with the opponent accepting the challenge, picking teams to win, and a winner being declared.  
+SI2.5 The expected result is for no errors to show while the challenge is going on and when the winner is declared.  
+SI2.6 Normal  
+SI2.7 Blackbox  
+SI2.8 Functional  
+SI2.9 Integration    
 
-UA1.1 ** User Authorization Test **
-UA1.2 The purpose of this test is to keep user accounts from being accessed without the correct username and password.
-UA1.3 This test will take an example user: (user, password), and try to see if there is a way to access the account without perfect matching credentials.
-UA1.4 Inputs will be variations of the username and password such as: (User, password), (user, PASSWORD), (us er, password), (user2, password), etc.
-UA1.5 The expected result is for all of the false login information to give us an error message of having the wrong credentials and to try again.
-UA1.6 Normal Testing
-UA1.7 Blackbox Testing
-UA1.8 Functional Testing
-UA1.9 Unit Testing
-UA1.10 Results: Only the correct username and password combination will allow for a user to sign into an account.
+UA1.1 **User Authorization Test**  
+UA1.2 The purpose of this test is to keep user accounts from being accessed without the correct username and password.  
+UA1.3 This test will take an example user: (user, password) and try to see if there is a way to access the account without perfect matching credentials.  
+UA1.4 Inputs will be variations of the username and password such as: (User, password), (user, PASSWORD), (us er, password), (user2, password), etc.  
+UA1.5 The expected result is for all of the false login information to give us an error message of having the wrong credentials and to try again.  
+UA1.6 Normal  
+UA1.7 Blackbox  
+UA1.8 Functional  
+UA1.9 Unit   
 
-DA1.1 ** Database API Test **
-DA1.2  The purpose of this test is to check if the API data successfully populates the SQL table.
-DA1.3  In this test, we will run our API call and input each game, teams in the game, score per team, etc. into our SQL table.
-DA1.4  There are no inputs for this test, but there will be different API calls per each sport in our app.
-DA1.5  We expect for the current games to show up within the games table.
-DA1.6  Normal Testing
-DA1.7  Blackbox Testing
-DA1.8  Functional Testing
-DA1.9  Integration Testing
-DA1.10 Results: Our SQL table fills with new, correct data from our API calls.
+DA1.1 **Database API Test**  
+DA1.2  The purpose of this test is to check if the API data successfully populates the SQL table.  
+DA1.3  In this test, we will run our API call and input each game, teams in the game, score per team, etc. into our SQL table.  
+DA1.4  There are no inputs for this test, but there will be different API calls per each sport in our app.  
+DA1.5  We expect for the current games to show up within the games table.  
+DA1.6  Normal  
+DA1.7  Blackbox  
+DA1.8  Functional  
+DA1.9  Integration  
