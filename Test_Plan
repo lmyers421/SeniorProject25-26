@@ -1,0 +1,60 @@
+# Test Plan and Results
+
+## Overall Test Plan
+
+## Test Case Descriptions
+
+LD1.1 **League Data API Test 1**  
+LD1.2 This test will ensure that the backend can successfully retrieve game or match data for a supported league using an external API.  
+LD1.3 For this test, the backend will issue a request to the league data endpoint using a valid league identifier and date range. The returned data will be verified to ensure it matches the requested league and timeframe.  
+LD1.4 Inputs: League identifier (e.g., NBA, NFL, NHL, LoL, Overwatch), Start date, End date  
+LD1.5 Outputs: Game or match data for the specified league is returned, No API or server errors occur  
+LD1.6 Normal  
+LD1.7 Blackbox  
+LD1.8 Functional  
+LD1.9 Integration  
+LD1.10 Results: Game or match data was successfully retrieved for the selected league and date range.  
+
+LD2.1 **League Data API Test 2**  
+LD2.2 This test will verify proper handling of invalid or unsupported league identifiers.  
+LD2.3 For this test, a request will be sent to the backend using a league identifier that is not supported by the system.  
+LD2.4 Inputs: Unsupported league identifier  
+LD2.5 Outputs: An error message or empty response is returned, Appropriate HTTP status code is provided  
+LD2.6 Abnormal  
+LD2.7 Blackbox  
+LD2.8 Functional  
+LD2.9 Integration  
+LD2.10 Results: The backend correctly rejected the unsupported league request.  
+
+LD3.1 **League Data API Test 3**  
+LD3.2 This test will verify that the backend correctly handles invalid date ranges for any supported league.  
+LD3.3 For this test, a request will be sent with an end date that occurs before the start date.  
+LD3.4 Inputs: Valid league identifier, Start date after end date  
+LD3.5 Outputs: Error response or validation message returned  
+LD3.6 Abnormal  
+LD3.7 Blackbox  
+LD3.8 Functional  
+LD3.9 Integration  
+LD3.10 Results: The backend correctly handled the invalid date range.  
+
+LD4.1 **League Data API Test 4**    
+LD4.2 This test will ensure consistent response structure across different leagues.  
+LD4.3 For this test, requests will be made to multiple supported league endpoints and the response format will be compared to ensure consistency.  
+LD4.4 Inputs: Multiple valid league identifiers, Valid date ranges   
+LD4.5 Outputs: Responses follow a consistent schema regardless of league  
+LD4.6 Normal  
+LD4.7 Whitebox  
+LD4.8 Functional  
+LD4.9 Integration  
+LD4.10 Results: All league responses followed the standardized backend data format.  
+
+PS1.1 **Prediction Submission Test 1**    
+PS1.2 This test will ensure that users can submit predictions for games or matches across any supported league.  
+PS1.3 For this test, a logged-in user will submit a prediction for an upcoming match. The system should store the prediction correctly in the database.  
+PS1.4 Inputs: Logged-in user, Valid match identifier, User prediction  
+PS1.5 Outputs: Prediction saved to the database, Confirmation returned to user  
+PS1.6 Normal  
+PS1.7 Blackbox  
+PS1.8 Functional  
+PS1.9 Integration  
+PS1.10 Results: Prediction was successfully stored and associated with the correct user and match.  
