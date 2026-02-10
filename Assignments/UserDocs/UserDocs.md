@@ -27,10 +27,10 @@ Users can join existing challenges or create their own, make predictions for gam
 ## Using the Application
 After the user has joined or created a bracket, it's time to play the game!
 1. Navigate to the Brackets page  ![](./Assets/Bracketed-1.png)
-2. Brackets you've joined/created will be visible to you.  ![](SeniorProject25-26/Assets/Bracketed-2.jpg)
+2. Brackets you've joined/created will be visible to you.  ![](./Assets/Bracketed-2.png)
 3. Select the bracket you want to enter
 4. Every game in the bracket will be shown to you.
-5. To make your picks, simply click the team you think will win. ![](SeniorProject25-26/Assets/Bracketed-3.jpg)
+5. To make your picks, simply click the team you think will win. ![](./Assets/Bracketed-3.png)
 6. Changes can be made to your picks up until the games begin.
 7. Check back later to view results!---
 ## FAQs
