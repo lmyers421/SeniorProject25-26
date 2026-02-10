@@ -26,7 +26,7 @@ Users can join existing challenges or create their own, make predictions for gam
 ---
 ## Using the Application
 After the user has joined or created a bracket, it's time to play the game!
-1. Navigate to the Brackets page  ![](Assets/Bracketed-1.jpg)
+1. Navigate to the Brackets page  ![](../Bracketed-1.jpg)
 2. Brackets you've joined/created will be visible to you.  ![](SeniorProject25-26/Assets/Bracketed-2.jpg)
 3. Select the bracket you want to enter
 4. Every game in the bracket will be shown to you.
