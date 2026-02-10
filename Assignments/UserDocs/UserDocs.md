@@ -23,7 +23,7 @@ Users can create or join challenges through the "Challenges" tab
 1. Navigate to the Challenges tab and click on join challenge
 2. Users will then be prompted to enter an ID code that is associated with a specific challenge
 3. Click join, user may be prompted to enter a password as well
-4. You have now joined the challenge and can make selections
+4. You have now joined the challenge and can [make selections](#using-the-application)
 ### Create Challenge
 1. Navigate to the Challenges tab and click on create challenge
 2. A list of all games will be shown, use settings to filter by league, team and date
@@ -54,7 +54,7 @@ You can join a challenge by selecting it from the available challenges list, usi
 **Can I create my own challenge?**  
 Yes. Any registered user can create a challenge, choose a league, set rules, and invite other users to participate.
 
-**Can a challenge include games from multiple leagues?**
+**Can a challenge include games from multiple leagues?**  
 Yes. A challenge in bracketed can include a combination of multiple games from any of the supported leagues.
 
 **What happens if I miss a game or forget to submit a prediction?**  
