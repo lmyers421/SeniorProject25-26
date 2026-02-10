@@ -10,7 +10,9 @@ Users can join existing challenges or create their own, make predictions for gam
   - [Short Description](#short-description)
   - [Table Of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
-  - [Entering/Creating Challenges](#enteringcreating-challenges)
+  - [Joining/Creating Challenges](#joiningcreating-challenges)
+    - [Join Challenge](#join-challenge)
+    - [Create Challenge](#create-challenge)
   - [Using the Application](#using-the-application)
   - [FAQs](#faqs)
 ---
