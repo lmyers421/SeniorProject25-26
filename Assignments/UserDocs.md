@@ -7,14 +7,11 @@ Users can join existing challenges or create their own, make predictions for gam
 
 ## Table Of Contents
 1. Getting Started
-2. Setup
-3. Entering/Creating Challenges
-4. Playing the game
-5. FAQs
+2. Entering/Creating Challenges
+3. Playing the game
+4. FAQs
 ---
 ## Getting Started
----
-## Setup
 ---
 ## Entering/Creating Challenges
 ---
