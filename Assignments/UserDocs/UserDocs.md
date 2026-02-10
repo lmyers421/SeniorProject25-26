@@ -6,10 +6,10 @@ Bracketed is a web-based platform that lets users create and participate in pick
 Users can join existing challenges or create their own, make predictions for games or matches, and track results as events progress. Bracketed is designed to be easy to use for casual fans while still supporting a wide range of leagues and competitive formats.
 
 ## Table Of Contents
-1. Getting Started
-2. Entering/Creating Challenges
-3. Using the Application
-4. FAQs
+1. [Getting Started](#getting-started)
+2. [Entering/Creating Challenges](#entering-challenges)
+3. [Using the Application](#using-application)
+4. [FAQs](#faqs)
 ---
 ## Getting Started
 1. Users of the Bracketed Application can go to BracketedSports.com
