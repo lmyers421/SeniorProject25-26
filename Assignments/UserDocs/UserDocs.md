@@ -7,8 +7,8 @@ Users can join existing challenges or create their own, make predictions for gam
 
 ## Table Of Contents
 1. [Getting Started](#getting-started)
-2. [Entering/Creating Challenges](#entering-challenges)
-3. [Using the Application](#using-application)
+2. [Joining/Creating Challenges](#joiningcreating-challenges)
+3. [Using the Application](#using-the-application)
 4. [FAQs](#faqs)
 ---
 ## Getting Started
@@ -17,12 +17,19 @@ Users can join existing challenges or create their own, make predictions for gam
 3. To place a prediction, the user will go to the Login/Sign-Up screen where they will login or create an account with just a username and password
 4. Once signed in the user can freely pick what team they believe will win
 ---
-## Entering/Creating Challenges
-1. Users can create or join challenges through the "Challenges" tab
-2. To create a challenge, click the "Create Challenge" button and select which sports from the offered leagues to include in the challenge
-3. Once created, the challenge will be assigned a 6-digit code to which the user can sent to those they want to join their challenge
-4. All users in the challenge will pick their teams to win
-5. After the games end, the most victorious player will be crowned the winner of the challenge
+## Joining/Creating Challenges
+Users can create or join challenges through the "Challenges" tab
+### Join Challenge
+1. Navigate to the Challenges tab and click on join challenge
+2. Users will then be prompted to enter an ID code that is associated with a specific challenge
+3. Click join, user may be prompted to enter a password as well
+4. You have now joined the challenge and can make selections
+### Create Challenge
+1. Navigate to the Challenges tab and click on create challenge
+2. A list of all games will be shown, use settings to filter by league, team and date
+3. Select what games you want to be in the pick'em challenge
+4. Click create challenge, a ID code associated with the challenge will be created
+5. Use this code to invite other players to join your challenge.
 ---
 ## Using the Application
 After the user has joined or created a bracket, it's time to play the game!
@@ -46,6 +53,9 @@ You can join a challenge by selecting it from the available challenges list, usi
 
 **Can I create my own challenge?**  
 Yes. Any registered user can create a challenge, choose a league, set rules, and invite other users to participate.
+
+**Can a challenge include games from multiple leagues?**
+Yes. A challenge in bracketed can include a combination of multiple games from any of the supported leagues.
 
 **What happens if I miss a game or forget to submit a prediction?**  
 If a prediction is not submitted before the event starts, it will typically be marked as incorrect or skipped, depending on the challenge rules.
