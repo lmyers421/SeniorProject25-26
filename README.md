@@ -318,6 +318,17 @@ Meeting 10, November 19:
 - Talked about connecting an API to our system via Node.js instead of from the database itself
 - Created a way to run the client and server at the same time for easier testing
 
+Meeting 11, January 20:
+- Discussed long term plans for ensuring the project will be finished by the day of the EXPO.
+
+Meeting 12, January 27:
+- Made a list of what pieces of data will be needed for which portion of our application for quicker database queries.
+
+Meeting 13, February 3:
+- Set up testing plan document
+- Talked about how we are going to implement our API calls to the database.
+
+
 Resources / References
 - The API we intend to get our data from can be found at: https://www.api-football.com/
 - For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
