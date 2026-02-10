@@ -19,26 +19,26 @@ Users can join existing challenges or create their own, make predictions for gam
 ---
 ## FAQs
 ---
-Do I need an account to use Bracketed?
+**Do I need an account to use Bracketed?**  
 Yes. You must create an account to join or create challenges and submit predictions. This allows Bracketed to save your picks and track your progress.
 
-What sports and esports are supported?
+**What sports and esports are supported?** 
 Bracketed is designed to support most major sports and esports leagues. The available leagues may expand over time as new integrations are added. Currently, the sports leagues we support are the MLB, MLS, NBA, and NFL. The only esport we currently support is League of Legends.
 
-How do I join a challenge?
+**How do I join a challenge?**  
 You can join a challenge by selecting it from the available challenges list, using an invite link provided by the challenge creator, or using a code provided by the challenge creator.
 
-Can I create my own challenge?
+**Can I create my own challenge?**  
 Yes. Any registered user can create a challenge, choose a league, set rules, and invite other users to participate.
 
-What happens if I miss a game or forget to submit a prediction?
+**What happens if I miss a game or forget to submit a prediction?**  
 If a prediction is not submitted before the event starts, it will typically be marked as incorrect or skipped, depending on the challenge rules.
 
-Can I edit my predictions after submitting them?
+**Can I edit my predictions after submitting them?**  
 Predictions can usually be edited until the event begins. Once a game or match has started, predictions are locked.
 
-Is Bracketed free to use?
+**Is Bracketed free to use?**  
 Yes. Bracketed is free to use for creating and participating in challenges.
 
-Who is Bracketed for?
+**Who is Bracketed for?**  
 Bracketed is intended for sports and esports fans of all experience levels, from casual viewers to competitive fans who enjoy organized pick’em challenges.
