@@ -328,6 +328,9 @@ Meeting 13, February 3:
 - Set up testing plan document
 - Talked about how we are going to implement our API calls to the database.
 
+Meeting 14, February 10:
+- Set up User Docs
+- Set up environment variables file to secure our keys
 
 Resources / References
 - The API we intend to get our data from can be found at: https://www.api-football.com/
