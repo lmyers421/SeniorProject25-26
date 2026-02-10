@@ -11,10 +11,10 @@ Short Description
 ## Getting Started
 ---
 ## Setup
---
+---
 ## Entering/Creating Challenges
 ---
-## PLaying the Game
+## Playing the Game
 ---
 ## FAQs
 ---
