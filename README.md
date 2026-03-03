@@ -332,6 +332,21 @@ Meeting 14, February 10:
 - Set up User Docs
 - Set up environment variables file to secure our keys
 
+Meeting 15, February 17:
+- Running into issues with League of Legends API
+- Frontend page shows what brackets a user is enrolled in and allows them to make selections for which games should be included
+- Updated presentation slidedeck
+
+Meeting 16, Febraury 26:
+- Talked about getting APIs updated with frontend
+- Got a postman workspace set up
+
+Meeting 17, March 3:
+- Finalized database schema for tables
+- All needed external APIs are now integrated
+- Started working on logic for updating tables with external APIs
+- Discussed what is needed for us to be able to do a demo next week during our presentation
+
 Resources / References
 - The API we intend to get our data from can be found at: https://www.api-football.com/
 - For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
