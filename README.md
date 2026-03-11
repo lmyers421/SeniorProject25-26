@@ -347,6 +347,10 @@ Meeting 17, March 3:
 - Started working on logic for updating tables with external APIs
 - Discussed what is needed for us to be able to do a demo next week during our presentation
 
+Meeting 18, March 10:
+- Finished slideshow that we will use for our presentation tomorrow
+- More updates to the frontend
+
 Resources / References
 - The API we intend to get our data from can be found at: https://www.api-football.com/
 - For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
