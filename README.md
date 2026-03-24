@@ -351,6 +351,17 @@ Meeting 18, March 10:
 - Finished slideshow that we will use for our presentation tomorrow
 - More updates to the frontend
 
+Meeting 19, March 24:
+- Discussed plans for EXPO demo
+    - We will pull a series of games from a previous weekend several years ago
+    - People at the EXPO will then be able to make selections for who they think won that past match
+    - At the end of the EXPO, we will conclude those matches, marking the correct winner
+    - The accounts made during the EXPO will then have their scores updated based on their picks
+- Discussed what needs to be done before the EXPO
+    - User authentication
+    - Leaderboard
+    - Saving picks and locking them once the match starts
+
 Resources / References
 - The API we intend to get our data from can be found at: https://www.api-football.com/
 - For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
