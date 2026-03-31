@@ -361,6 +361,14 @@ Meeting 19, March 24:
     - User authentication
     - Leaderboard
     - Saving picks and locking them once the match starts
+ 
+Meeting 20, March 31:
+- Further discussed plans for EXPO demo
+- Michael will work on the leaderboard
+- Luke will work on API models, data flow, and refactoring 
+- Sam will work on saving picks on the frontend. All functionality should be available on the backend
+- William will work on automatically pulling match results from APIs and updating our database with that data
+- We also need to work on getting dummy data for the demo, as real matches will not be finishing during the EXPO
 
 Resources / References
 - The API we intend to get our data from can be found at: https://www.api-football.com/
