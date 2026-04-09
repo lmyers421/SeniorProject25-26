@@ -126,14 +126,14 @@ In its current state, there will be little to no ethical constraints for the pro
 [Slideshow](Assignments/Bracketed_Spring_Presentation_Senior_Design.pdf)
 
 ## Self-Assessment Essays
-# Fall
+### Fall
 [Luke Meyers](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Myers.pdf)
 
 [Sam Winkelmann](Assignments/Assignment3_CapstoneAssessment/CapstoneAssessment_Winkelmann.pdf)
 
 [William Braun](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Braun.pdf)
 
-# Spring
+### Spring
 [Sam Winkelmann](Assignments/Individual_Assessments/Winkelmann_SelfReflection_Spring.pdf)
 
 ## Professional Biographies
