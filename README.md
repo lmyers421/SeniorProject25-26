@@ -288,6 +288,8 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 
 ## Summary of Hours
 ### William Braun
+My contributions primarily focused on backend development, including integrating external APIs to retrieve and store match data and implementing full user authentication across the system. I worked on designing data flow, handling inconsistencies between different league APIs, and ensuring reliable communication between the frontend, backend, and database. I also contributed to testing, debugging, and supporting system integration. These efforts required a combination of research, development, and troubleshooting across both semesters, and supporting materials such as commit history and meeting notes provide evidence of my time and contributions.  
+
 #### Fall Semester
 - Team Meetings: 11 hours
 - Class Assignments: 15 hours
