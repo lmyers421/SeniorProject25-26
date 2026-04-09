@@ -285,20 +285,39 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 - Full-stack projects that integrate user-friendly front ends with scalable back ends
 
 ## Summary of Hours
+### William Braun
+#### Fall Semester
+- Team Meetings: 11 hours
+- Class Assignments: 15 hours
+- Backend Architecture Planning and Design: 3 hours
+- Researching External APIs / Esports APIs: 5 hours
+- Setting Up Backend Development Environment: 4 hours
+- Initial API Exploration and Testing: 5 hours
+- Brainstorming and Defining Backend Functionality: 4 hours  
+**Fall Total: 47 hours**
+
+#### Spring Semester
+- Team Meetings: 12 hours
+- Class Assignments and In-Class Presentation: 10 hours
+- Final Expo: 5 hours
+- Integration of External APIs for Match Data: 15 hours
+- Handling and Normalizing League Data Across Multiple APIs: 5 hours
+- Implementing User Authentication (Backend and Frontend Integration): 6 hours
+- Database Integration for Storing Match and User Data: 2 hours
+- Backend Testing Using Postman: 2 hours
+- Supporting Teammates with Integration and Troubleshooting: 4 hours
+- Final Testing and Refinement: 3 hours  
+**Spring Total: 64 hours**
+
+#### Total Contribution
+**Fall: 47 hours**
+**Spring: 64 hours**
+**Total: 111 hours**
 
 ## Budget/Expenses
 There have not been any expenses to date for this project.
 
-The football API at: https://www.api-football.com/ may need a subscription which would cost $19.00 per month should we exceed 100 API requests per day.
-
-There may be additional costs if we want to host our client and server in the costs, but these have not been calculated yet
-
 ## Appendix
-Time Card
-- Weekly Team Meetings (Advisor Meetings Included): ~11 hours
-- 10 Assignments: ~15 hours
-- Project Setup / Work ~20 hours
-
 Meeting 1, September 17:
 - Created Design Diagrams for Assignment 4
 - Compiled interview data about what people would want out of our application
