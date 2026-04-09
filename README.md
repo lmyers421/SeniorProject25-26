@@ -50,7 +50,7 @@
       - [Skills/Expertise Areas](#skillsexpertise-areas)
       - [Areas of Interest](#areas-of-interest-1)
       - [Types of Projects Sought](#types-of-projects-sought)
-  - [Budget](#budget)
+  - [Budget/Expenses](#budget)
   - [Appendix](#appendix)
 
 ## Team Members
@@ -283,7 +283,7 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 - Mobile or cross-platform applications
 - Full-stack projects that integrate user-friendly front ends with scalable back ends
 
-## Budget
+## Budget/Expenses
 There have not been any expenses to date for this project.
 
 The football API at: https://www.api-football.com/ may need a subscription which would cost $19.00 per month should we exceed 100 API requests per day.
