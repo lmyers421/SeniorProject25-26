@@ -8,6 +8,7 @@
   - [Project Abstract](#project-abstract)
   - [Project Description](#project-description)
   - [Poster](#poster)
+  - [User Docs](#user-docs)
   - [User Stories and Design Diagrams](#user-stories-and-design-diagrams)
     - [User Stories](#user-stories)
     - [Design Diagrams](#design-diagrams)
@@ -68,6 +69,8 @@ Bracketed is a web-based platform where users can join or create "pick’em" con
 ## Poster
 <img width="1296" height="972" alt="image" src="https://github.com/user-attachments/assets/3d56c27a-b524-484d-8e62-9fb87b2af3be" />
 
+## User Docs
+[User Docs](Assignments/UserDocs/UserDocs.md)
 
 ## User Stories and Design Diagrams
 ### User Stories
