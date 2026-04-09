@@ -310,9 +310,9 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 **Spring Total: 64 hours**
 
 #### Total Contribution
-**Fall: 47 hours**
-**Spring: 64 hours**
-**Total: 111 hours**
+**Fall: 47 hours**  
+**Spring: 64 hours**  
+**Total: 111 hours**  
 
 ## Budget/Expenses
 There have not been any expenses to date for this project.
