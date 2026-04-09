@@ -7,6 +7,7 @@
   - [Team Members](#team-members)
   - [Project Abstract](#project-abstract)
   - [Project Description](#project-description)
+  - [Poster](#poster)
   - [User Stories and Design Diagrams](#user-stories-and-design-diagrams)
     - [User Stories](#user-stories)
     - [Design Diagrams](#design-diagrams)
@@ -64,6 +65,10 @@ Bracketed is a web-based platform that unifies pick’em competitions across bot
 ## Project Description
 Bracketed is a web-based platform where users can join or create "pick’em" contests across multiple sports and esports in one unified hub. Users predict winners, track scores, and compete with friends in leagues or leaderboards.
 
+## Poster
+<img width="1296" height="972" alt="image" src="https://github.com/user-attachments/assets/3d56c27a-b524-484d-8e62-9fb87b2af3be" />
+
+
 ## User Stories and Design Diagrams
 ### User Stories
 - As a sports fan, I want to make weekly pick'em predictions across multiple leagues so that I can compete with my friends and track my performance.
@@ -111,10 +116,10 @@ Ethical:
 In its current state, there will be little to no ethical constraints for the project. However, if the project expands, there will be some ethical concerns that will need to be addressed. The website will have the ability for users to add friends and invite them to challenges, which will start to create a community. It will be an ethical obligation to monitor this community to prevent harassment, hateful activity, and bullying. Many sports games often involve gambling, and if any monetary transactions or rewards were ever included into the site, it would be important that effects of sports betting and gambling addiction would not be abused or capitalized on just for the benefit of the website. 
 
 ## PPT Slideshows
-# Fall
+### Fall
 [Slideshow](Assignments/Fall_Design_Presentation.pdf)
 
-# Spring
+### Spring
 [Slideshow](Assignments/Bracketed_Spring_Presentation_Senior_Design.pdf)
 
 ## Self-Assessment Essays
