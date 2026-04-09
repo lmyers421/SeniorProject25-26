@@ -18,7 +18,7 @@
     - [Timeline](#timeline)
     - [Effort Matrix](#effort-matrix)
   - [ABET Concerns Essay](#abet-concerns-essay)
-  - [PPT Slideshow](#ppt-slideshow)
+  - [PPT Slideshows](#ppt-slideshows)
   - [Self-Assessment Essays](#self-assessment-essays)
   - [Professional Biographies](#professional-biographies)
     - [Luke Myers](#luke-myers)
@@ -110,10 +110,11 @@ A major legal constraint for Bracketed involves the use of intellectual property
 Ethical:  
 In its current state, there will be little to no ethical constraints for the project. However, if the project expands, there will be some ethical concerns that will need to be addressed. The website will have the ability for users to add friends and invite them to challenges, which will start to create a community. It will be an ethical obligation to monitor this community to prevent harassment, hateful activity, and bullying. Many sports games often involve gambling, and if any monetary transactions or rewards were ever included into the site, it would be important that effects of sports betting and gambling addiction would not be abused or capitalized on just for the benefit of the website. 
 
-## Fall PPT Slideshow
+## PPT Slideshows
+# Fall
 [Slideshow](Assignments/Fall_Design_Presentation.pdf)
 
-## Spring PPT Slideshow
+# Spring
 [Slideshow](Assignments/Bracketed_Spring_Presentation_Senior_Design.pdf)
 
 ## Self-Assessment Essays
