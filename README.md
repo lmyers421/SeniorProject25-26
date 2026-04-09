@@ -137,6 +137,8 @@ In its current state, there will be little to no ethical constraints for the pro
 ### Spring
 [Sam Winkelmann](Assignments/Individual_Assessments/Winkelmann_Self_Assessment_Spring.pdf)
 
+[William Braun](Assignments/Individual_Assessments/Braun_Self%20Assessment_Spring.pdf)
+
 ## Professional Biographies
 
 ### Luke Myers
@@ -310,8 +312,8 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 **Spring Total: 64 hours**
 
 #### Total Contribution
-**Fall: 47 hours**  
-**Spring: 64 hours**  
+Fall: 47 hours  
+Spring: 64 hours  
 **Total: 111 hours**  
 
 ## Budget/Expenses
