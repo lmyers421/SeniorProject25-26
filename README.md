@@ -50,6 +50,7 @@
       - [Skills/Expertise Areas](#skillsexpertise-areas)
       - [Areas of Interest](#areas-of-interest-1)
       - [Types of Projects Sought](#types-of-projects-sought)
+  - [Summary of Hours](#summary-of-hours)
   - [Budget/Expenses](#budget)
   - [Appendix](#appendix)
 
@@ -282,6 +283,8 @@ Cincinnati, OH • (513) 908-7454 • braunwb@mail.uc.edu
 - AI/ML-driven applications for predictive analytics
 - Mobile or cross-platform applications
 - Full-stack projects that integrate user-friendly front ends with scalable back ends
+
+## Summary of Hours
 
 ## Budget/Expenses
 There have not been any expenses to date for this project.
