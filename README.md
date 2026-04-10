@@ -128,7 +128,7 @@ In its current state, there will be little to no ethical constraints for the pro
 
 ## Self-Assessment Essays
 ### Fall
-[Luke Meyers](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Myers.pdf)
+[Luke Myers](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Myers.pdf)
 
 [Sam Winkelmann](Assignments/Assignment3_CapstoneAssessment/CapstoneAssessment_Winkelmann.pdf)
 
@@ -343,6 +343,38 @@ My primary contribution to the project was the frontend development, which prima
 Fall: 50 hours  
 Spring: 52 hours  
 **Total: 102 hours**  
+
+### Luke Myers
+
+### Fall Semester
+- Team Meetings: 11 hours
+- Class Assignments: 15 hours
+- Tech Stack Brainstorming: 2 hours
+- Front end Architcture Planning and Design: 3 hours
+- Setting Up Front End Development Environment: 2 hours
+- Overall User Experince and Product Funcionality Brainstorming: 8 hours
+- React and NodeJS learning and research: 4 hours
+**Fall Total: 45 hours**
+
+### Spring Semester
+- Team Meetings: 12 hours
+- Class Assignments and In-Class Presentation: 10 hours
+- Final Expo: 5 hours
+- Data Base System Desgin: 4 hours
+- SQL Data Base Scehma Creation: 5 hours
+- Setting up Neon Serverless SQL Hosting: 2 hours
+- API Endpoint Design: 6 hours
+- API Endpoint and SQL Querey Creation: 8 hours
+- Front End React Project Structuring: 2 hours
+- Finilazing Data Flow from Backend to Frontend: 3 hours
+- Data Model, React Hook, and Page Creation: 8 hours
+- Finalzing Front End User Experince: 3 hours
+**Spring Total: 68 hours**
+  
+### Total Contribution
+Fall: 45 hours
+Spring: 68 hours
+**Total: 113 hours**
 
 ## Budget/Expenses
 $15 - Tri fold for expo
