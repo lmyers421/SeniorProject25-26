@@ -19,6 +19,7 @@
     - [Task List](#task-list)
     - [Timeline](#timeline)
     - [Effort Matrix](#effort-matrix)
+    - [Testing Plan + Results](#testing-plan)
   - [ABET Concerns Essay](#abet-concerns-essay)
   - [PPT Slideshows](#ppt-slideshows)
   - [Self-Assessment Essays](#self-assessment-essays)
@@ -103,6 +104,9 @@ Bracketed is a web-based platform where users can join or create "pick’em" con
 
 ### Effort Matrix
 [Effort Matrix](Assignments/EffortMatrix.xlsx)
+
+### Testing Plan
+[Testing Plan](Assignments/Test_Plan.md)
 
 ## ABET Concerns Essay
 Our project will interact with economic, legal, security, and ethical concerns. 
