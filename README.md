@@ -342,6 +342,7 @@ My primary contribution to the project was the frontend development, which prima
 #### Total Contribution
 Fall: 50 hours  
 Spring: 52 hours 
+
 **Total: 102 hours**
 
 ## Budget/Expenses
