@@ -135,6 +135,8 @@ In its current state, there will be little to no ethical constraints for the pro
 [William Braun](Assignments/Assignment3_CapstoneAssessment/IndividualCapstoneAssessment_Braun.pdf)
 
 ### Spring
+[Luke Myers](Assignments/Individual_Assessments/Myers_Self_Assessment_Spring.pdf)
+
 [Sam Winkelmann](Assignments/Individual_Assessments/Winkelmann_Self_Assessment_Spring.pdf)
 
 [William Braun](Assignments/Individual_Assessments/Braun_Self%20Assessment_Spring.pdf)
