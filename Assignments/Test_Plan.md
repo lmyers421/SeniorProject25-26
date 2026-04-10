@@ -159,20 +159,20 @@ DA1.9  Integration
 
 ## Test Case Matrix
 
-| Test Case ID | Normal/Ab. | Black/Whitebox | Funct/Perform | Unit/Integr |
-| ------------ | ---------- | -------------- | ------------- | ----------- |
-|LD1         |Normal    |Blackbox      |Functional   |Integration|
-|LD2         |Abnormal  |Blackbox      |Functional   |Integration|
-|LD3         |Abnormal  |Blackbox      |Functional   |Integration|
-|LD4         |Normal    |Whitebox      |Functional   |Integration|
-|PS1         |Normal    |Blackbox      |Functional   |Integration|
-|AB1         |Normal    |Blackbox      |Functional   |Unit       |
-|SF1         |Normal    |Whitebox      |Functional   |Integration|
-|NM1         |Normal    |Blackbox      |Functional   |Integration|
-|CI1         |Normal    |Blackbox      |Functional   |Integration|
-|CI2         |Normal    |Blackbox      |Functional   |Integration|
-|CI3         |Normal    |Blackbox      |Functional   |Integration|
-|SI1         |Normal    |Blackbox      |Functional   |Integration|
-|SI2         |Normal    |Blackbox      |Functional   |Integration|
-|UA1         |Normal    |Blackbox      |Functional   |Unit       |
-|DA1         |Normal    |Blackbox      |Functional   |Integration|
+| Test Case ID | Normal/Ab. | Black/Whitebox | Funct/Perform | Unit/Integr | Test Date | Results |
+| ------------ | ---------- | -------------- | ------------- | ----------- | --------- | -------- |
+|LD1         |Normal    |Blackbox      |Functional   |Integration|   2/8/2026|   Success|
+|LD2         |Abnormal  |Blackbox      |Functional   |Integration|   2/12/2026|   Success|
+|LD3         |Abnormal  |Blackbox      |Functional   |Integration|   2/25/2026|   Success|
+|LD4         |Normal    |Whitebox      |Functional   |Integration|   2/27/2026|   Success|
+|PS1         |Normal    |Blackbox      |Functional   |Integration|   2/20/2026|   Success|
+|AB1         |Normal    |Blackbox      |Functional   |Unit       |   3/2/2026|   Success|
+|SF1         |Normal    |Whitebox      |Functional   |Integration|   2/16/2026|   Success|
+|NM1         |Normal    |Blackbox      |Functional   |Integration|   2/20/2026|   Success|
+|CI1         |Normal    |Blackbox      |Functional   |Integration|   3/23/2026|   Success|
+|CI2         |Normal    |Blackbox      |Functional   |Integration|   3/26/2026|   Success|
+|CI3         |Normal    |Blackbox      |Functional   |Integration|   3/31/2026|   Success|
+|SI1         |Normal    |Blackbox      |Functional   |Integration|   3/30/2026|   Success|
+|SI2         |Normal    |Blackbox      |Functional   |Integration|   4/2/2026|   Success|
+|UA1         |Normal    |Blackbox      |Functional   |Unit       |   3/26/2026|   Success|
+|DA1         |Normal    |Blackbox      |Functional   |Integration|   4/3/2026|   Success|
