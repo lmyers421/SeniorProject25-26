@@ -318,8 +318,34 @@ Fall: 47 hours
 Spring: 64 hours  
 **Total: 111 hours**  
 
+### Sam Winkelmann
+My primary contribution to the project was the frontend development, which primarily involved html, css, and javascript implementations.  I created the original layout of the site and the page designs, as well as most of the styling choices.  Because the frontend predated much of the backend functionality, it was done mainly in the first half of the project work, with less heavy focus on the frontend taking place in the later stages of the project.  I cvontinued to contribute via bug fixes and changes to styling, and whatever new frontend features needed to be created, but the bulk of that was early on.  I attended all of our team meetings, and worked on all assignments and aspects of the presentations, poster, expo prep, etc. as well.
+
+#### Fall Semester
+- Weekly Team Meetings (Advisor Meetings Included): ~11 hours
+- 10 Assignments: ~15 hours
+- Brainstorming ideas/frontend sketching/ideating: 4 hrs
+- Project Setup / Work ~20 hours
+**Fall Total: 50 hrs**
+
+#### Spring Semester
+- Team Meetings: 12 hours
+- Class Assignments and In-Class Presentation: 10 hours
+- Final Expo: 5 hours
+- Brainstorming final frontend layout: 2 hours
+- Initial frontend development: 12 hours
+- Leaderboard development: 3 hours
+- Bug fixes and Visual updates: 5 hours
+- Demo/expo prep: 3 hours
+**Spring Total: 52 hrs**
+
+#### Total Contribution
+Fall: 50 hours  
+Spring: 52 hours
+**Total: 102 hours**
+
 ## Budget/Expenses
-There have not been any expenses to date for this project.
+$15 - Tri fold for expo
 
 ## Appendix
 Meeting 1, September 17:
