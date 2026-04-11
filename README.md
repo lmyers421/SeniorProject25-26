@@ -376,14 +376,14 @@ Spring: 52 hours
 - API Endpoint Design: 6 hours
 - API Endpoint and SQL Querey Creation: 8 hours
 - Front End React Project Structuring: 2 hours
-- Finilazing Data Flow from Backend to Frontend: 3 hours
+- Finalizing Data Flow from Backend to Frontend: 3 hours
 - Data Model, React Hook, and Page Creation: 8 hours
-- Finalzing Front End User Experince: 3 hours
+- Finalizing Front End User Experince: 3 hours
 **Spring Total: 68 hours**
   
 ### Total Contribution
-Fall: 45 hours
-Spring: 68 hours
+Fall: 45 hours  
+Spring: 68 hours  
 **Total: 113 hours**
 
 ## Budget/Expenses
@@ -481,7 +481,12 @@ Meeting 20, March 31:
 - We also need to work on getting dummy data for the demo, as real matches will not be finishing during the EXPO
 
 Resources / References
-- The API we intend to get our data from can be found at: https://www.api-football.com/
-- For connecting to the API, we found good resources to learn at: https://nodejs.org/docs/latest/api/
+- The repository that we used for our code can be found here: https://github.com/lmyers421/Bracketed 
+- NBA API: https://api.balldontlie.io/v1
+- NFL API: https://api.balldontlie.io/nfl/v1 
+- MLB API: https://statsapi.mlb.com/api/v1 
+- MLS API: https://www.thesportsdb.com/api/v1/json/3 
+- LoL API: https://lol.fandom.com/api.php 
+- Neon Project: https://console.neon.tech/app/projects/small-frost-42370742 
 
 
