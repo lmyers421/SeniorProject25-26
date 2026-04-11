@@ -386,6 +386,33 @@ Fall: 45 hours
 Spring: 68 hours  
 **Total: 113 hours**
 
+### Michael Rhode
+
+### Fall Semester
+- Team Meetings: 11 hours
+- Class Assignments: 12 hours
+- Database Integration Research: 3 hours
+- Learning Java/SQL Connection: 5 hours
+- API Research: 2 hours
+- Backend Development: 5 hours
+- Documentation: 2 hours
+**Fall Total: 40 hours**
+
+### Spring Semester
+- Team Meetings: 12 hours
+- Class Assignments: 12 hours
+- Creating Database Schema: 2 hours
+- Developing SQL Queries for Data Population: 3 hours
+- Leaderboard Implementation: 4 hours
+- Application Testing: 4 hours
+- Final Expo: 5 hours
+**Spring Total: 42 hours**
+  
+### Total Contribution
+Fall: 40 hours  
+Spring: 42 hours  
+**Total: 82 hours**
+
 ## Budget/Expenses
 $15 - Tri fold for expo
 
